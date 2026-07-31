@@ -1,0 +1,16 @@
+experiment: cosine_crop_flip
+seed: 42
+data_config: configs/data/cifar10.yaml
+model_config: configs/model/simple_cnn.yaml
+output_dir: outputs/cosine_crop_flip
+training:
+  epochs: 30
+  device: auto
+  optimizer:
+    name: sgd
+    learning_rate: 0.1
+    momentum: 0.9
+    weight_decay: 0.0005
+  scheduler:
+    name: cosine
+    min_lr: 0.0001

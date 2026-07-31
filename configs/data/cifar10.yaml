@@ -1,0 +1,21 @@
+dataset: cifar10
+root: "D:/new project for torch/data"
+download: false
+
+batch_size: 128
+num_workers: 2
+pin_memory: true
+persistent_workers: true
+
+val_ratio: 0.1
+split_seed: 42
+
+image_size: 32
+num_classes: 10
+mean: [0.4914, 0.4822, 0.4465]
+std: [0.2470, 0.2435, 0.2616]
+
+train_augmentations:
+  name: crop_flip
+  random_crop_padding: 4
+  horizontal_flip_probability: 0.5

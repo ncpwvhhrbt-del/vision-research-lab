@@ -1,0 +1,5 @@
+model: resnet18
+in_channels: 3
+num_classes: 10
+weights: none
+zero_init_residual: false

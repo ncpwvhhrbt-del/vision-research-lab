@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Local datasets: never commit downloaded or unpacked dataset files.
+data/*
+!data/README.md
+
+# Experiment artifacts
+outputs/**
+!outputs/README.md
+outputs/checkpoints/*
+outputs/logs/*
+outputs/metrics/*
+outputs/predictions/*
+outputs/figures/*
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+
+# Local notebooks
+.ipynb_checkpoints/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+*.png

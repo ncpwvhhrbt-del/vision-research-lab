@@ -1,0 +1,65 @@
+[
+  {
+    "augmentation": "none",
+    "seed": 42,
+    "test_accuracy": 0.8645,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\none_seed_42"
+  },
+  {
+    "augmentation": "none",
+    "seed": 123,
+    "test_accuracy": 0.8673,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\none_seed_123"
+  },
+  {
+    "augmentation": "none",
+    "seed": 2024,
+    "test_accuracy": 0.8619,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\none_seed_2024"
+  },
+  {
+    "augmentation": "crop",
+    "seed": 42,
+    "test_accuracy": 0.879,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_seed_42"
+  },
+  {
+    "augmentation": "crop",
+    "seed": 123,
+    "test_accuracy": 0.8799,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_seed_123"
+  },
+  {
+    "augmentation": "crop",
+    "seed": 2024,
+    "test_accuracy": 0.881,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_seed_2024"
+  },
+  {
+    "augmentation": "crop_flip",
+    "seed": 42,
+    "test_accuracy": 0.8847,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_flip_seed_42"
+  },
+  {
+    "augmentation": "crop_flip",
+    "seed": 123,
+    "test_accuracy": 0.8911,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_flip_seed_123"
+  },
+  {
+    "augmentation": "crop_flip",
+    "seed": 2024,
+    "test_accuracy": 0.8935,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\augmentation_sweeps_formal\\crop_flip_seed_2024"
+  }
+]

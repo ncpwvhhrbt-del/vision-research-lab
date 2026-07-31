@@ -1,0 +1,65 @@
+[
+  {
+    "scheduler": "none",
+    "seed": 42,
+    "test_accuracy": 0.7942,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\none_seed_42"
+  },
+  {
+    "scheduler": "none",
+    "seed": 123,
+    "test_accuracy": 0.7972,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\none_seed_123"
+  },
+  {
+    "scheduler": "none",
+    "seed": 2024,
+    "test_accuracy": 0.8012,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\none_seed_2024"
+  },
+  {
+    "scheduler": "step",
+    "seed": 42,
+    "test_accuracy": 0.8764,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\step_seed_42"
+  },
+  {
+    "scheduler": "step",
+    "seed": 123,
+    "test_accuracy": 0.8761,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\step_seed_123"
+  },
+  {
+    "scheduler": "step",
+    "seed": 2024,
+    "test_accuracy": 0.8764,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\step_seed_2024"
+  },
+  {
+    "scheduler": "cosine",
+    "seed": 42,
+    "test_accuracy": 0.8847,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\cosine_seed_42"
+  },
+  {
+    "scheduler": "cosine",
+    "seed": 123,
+    "test_accuracy": 0.8911,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\cosine_seed_123"
+  },
+  {
+    "scheduler": "cosine",
+    "seed": 2024,
+    "test_accuracy": 0.8935,
+    "samples": 10000,
+    "output_dir": "D:\\new project for torch\\vision-research-lab\\outputs\\sweeps_formal\\cosine_seed_2024"
+  }
+]

@@ -1,0 +1,17 @@
+experiment: baseline_simple_cnn
+seed: 42
+
+data_config: configs/data/cifar10.yaml
+model_config: configs/model/simple_cnn.yaml
+output_dir: outputs/baseline_simple_cnn
+
+training:
+  epochs: 30
+  device: auto
+  optimizer:
+    name: sgd
+    learning_rate: 0.1
+    momentum: 0.9
+    weight_decay: 0.0005
+  scheduler:
+    name: none

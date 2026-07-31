@@ -1,0 +1,4 @@
+experiment,model,scheduler,epochs,best_val_accuracy,test_accuracy,seed
+baseline_simple_cnn,SimpleCNN,none,30,0.8050,0.7942,42
+simple_cnn_cosine_v2,SimpleCNN,cosine,30,0.8982,0.8847,42
+simple_cnn_step_lr,SimpleCNN,step,30,0.8874,0.8764,42
